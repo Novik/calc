@@ -503,7 +503,7 @@ module.exports = {
                                 duration: v,
                                 discount: max.discount.toFixed(2),
                                 summary: summary.toFixed(2),
-                                overall: (summary * this.cost).toFixed(2)
+                                overall: (summary * overall).toFixed(2)
                             });
                         }
                     });
